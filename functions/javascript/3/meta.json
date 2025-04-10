@@ -1,0 +1,7 @@
+{
+    "name": "GreetJS",
+    "route": "/greet",
+    "language": "javascript",
+    "timeout": 5
+  }
+  
