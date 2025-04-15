@@ -10,7 +10,7 @@ def start_container(func_id, language, func_path):
     if container_name in POOL:
         return POOL[container_name]
 
-    image = "function-runner-python" if language == "python" else "function-runner-js"
+    image = "serverless-python" if language == "python" else "serverless-js"
 
     cmd = [
         "docker", "run", "-d",
